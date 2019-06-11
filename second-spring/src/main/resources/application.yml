@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    initialization-mode: always
+    schema: classpath:shcema.sql
+    data: classpath:data.sql
+    platform: h2
+    url: jdbc:h2:mem:foo
+    username: sa
+    password:
