@@ -12,7 +12,7 @@ public class SqlConnector {
     public static final String EQUAL = "==";
     public static final String EMPTY = " ";
 
-    public static final String getConnector(String connector) {
+    public static String getConnector(String connector) {
         return EMPTY + connector;
     }
 }
