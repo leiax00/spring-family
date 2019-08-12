@@ -51,7 +51,7 @@ public abstract class Cond {
             setFirstCond(false);
             return getConnector(WHERE);
         }
-        return annotation == null?getConnector(AND):getConnector(annotation.condBetween());
+        return annotation == null ? getConnector(AND) : getConnector(annotation.condBetween());
     }
 
     private String getMappingName(Field field) {
