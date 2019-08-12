@@ -17,6 +17,7 @@
 
     <modules>
         <module>first-spring</module>
+        <module>daily-demo</module>
     </modules>
 
     <dependencyManagement>
