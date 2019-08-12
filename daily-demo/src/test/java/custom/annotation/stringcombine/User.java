@@ -10,8 +10,8 @@ import sqlgenerator.generrator.interfce.Cond;
 @AllArgsConstructor
 public class User extends Cond {
     private String name;
-    @SqlField(condInner = SqlConnector.GREATERANDEQUAL, mapping = "age")
+    @SqlField(condInner = SqlConnector.GREATER_AND_EQUAL, mapping = "age")
     private Integer minAge;
-    @SqlField(condInner = SqlConnector.LESSANDEQUAL, mapping = "age")
+    @SqlField(condInner = SqlConnector.LESS_AND_EQUAL, mapping = "age")
     private Integer maxAge;
 }
